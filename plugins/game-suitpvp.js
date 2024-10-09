@@ -27,3 +27,4 @@ handler.command = /^pvp|suit(pvp)?$/i
 handler.group = true
 handler.game = true
 export default handler
+
