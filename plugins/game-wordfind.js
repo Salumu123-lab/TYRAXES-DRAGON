@@ -6,7 +6,7 @@ let handler = async (m, { conn, text, usedPrefix, command}) => {
 
 if (!userSP) {
 userSP = m.sender.split("@")[0]
-await conn.reply(m.chat, `https://github.com/Khalid-official *@${m.sender.split("@")[0]} REGISTERED IN THE GAME* ✅`, m, { mentions: [m.sender] })
+await conn.reply(m.chat, `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *@${m.sender.split("@")[0]} REGISTERED IN THE GAME* ✅`, m, { mentions: [m.sender] })
 }
   
 async function generarSopaDeLetras() {
@@ -93,7 +93,7 @@ sopaDeLetrasConBordes += fila + "\n"
 //sopaDeLetrasConBordes += "   *╰" + "┄".repeat(LADO) + '┄┄' + "╯*"
 sopaDeLetrasConBordes = sopaDeLetrasConBordes.replace(/[a-zA-Z]/g, letra => LETRAS_POSIBLES[letra.charCodeAt() - 65] || letra)
 
-await m.reply(`https://github.com/Khalid-official 🔠 *ALPHABET SOUP* 🔠
+await m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q 🔠 *ALPHABET SOUP* 🔠
 *WORD:* \`\`\`"${PALABRA}"\`\`\`
 *YOU HAVE 3 MINUTES TO FIND THE CORRECT ANSWER!!*
 
@@ -114,7 +114,7 @@ sopaDir = DIRECCION.replace(/([A-Z])/g, ' $1').toLowerCase().replace(/^./, str =
 cambioLetra = sopaDir
 let tagUser = userSP + '@s.whatsapp.net'
 if (userSP != m.sender.split("@")[0]) {
-await conn.reply(m.chat, `https://github.com/Khalid-official *@${tagUser.split("@")[0]} HE IS CURRENTLY PLAYING LETTER SOUP 🔠*`, m, { mentions: [tagUser] })
+await conn.reply(m.chat, `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *@${tagUser.split("@")[0]} HE IS CURRENTLY PLAYING LETTER SOUP 🔠*`, m, { mentions: [tagUser] })
 return
 }
 if (intentos === 0) {
@@ -125,11 +125,11 @@ resetUserSP(sopaDir)
 async function resetUserSP() {
 await new Promise((resolve) => setTimeout(resolve, 2 * 60 * 1000)) // 2 min
 if (intentos !== 0) {
-await conn.reply(m.chat, `https://github.com/Khalid-official *@${m.sender.split("@")[0]} YOU HAVE ONE MINUTE LEFT!* 😨`, m, { mentions: [m.sender] })
+await conn.reply(m.chat, `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *@${m.sender.split("@")[0]} YOU HAVE ONE MINUTE LEFT!* 😨`, m, { mentions: [m.sender] })
 }
 await new Promise((resolve) => setTimeout(resolve, 3 * 60 * 1000)) // 3 min
 if (intentos !== 0) {
-await conn.reply( m.chat, `https://github.com/Khalid-official *@${m.sender.split("@")[0]} THE TIME IS UP!!* 😧\n\n*THE WORD _"${sopaPalabra}"_ WAS AT THE ADDRESS_${cambioLetra}_ AND THE LINE _${fila}_AND COLUMN _${columna}_*`, m, { mentions: [m.sender] })
+await conn.reply( m.chat, `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *@${m.sender.split("@")[0]} THE TIME IS UP!!* 😧\n\n*THE WORD _"${sopaPalabra}"_ WAS AT THE ADDRESS_${cambioLetra}_ AND THE LINE _${fila}_AND COLUMN _${columna}_*`, m, { mentions: [m.sender] })
 fila = null, columna = null, sopaNube = null, sopaPalabra = null, sopaDir = null, userSP = null, cambioLetra = null
 intentos = 0
 }
