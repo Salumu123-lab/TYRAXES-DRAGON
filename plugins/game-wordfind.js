@@ -146,18 +146,18 @@ diamante = 32
 }
 global.db.data.users[m.sender].limit += diamante
 
-await m.reply(`https://github.com/Khalid-official \`\`\`🎊 YOU'VE WON${diamante} ${rpgshop.emoticon('limit')}!!\`\`\`\n\n*CORRECT!! THE WORD _"${sopaPalabra}"_ WAS AT THE ADDRESS _${cambioLetra}_ FROM THE ROW_${fila}_ AND COLUMN _${columna}_*`)
+await m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q \`\`\`🎊 YOU'VE WON${diamante} ${rpgshop.emoticon('limit')}!!\`\`\`\n\n*CORRECT!! THE WORD _"${sopaPalabra}"_ WAS AT THE ADDRESS _${cambioLetra}_ FROM THE ROW_${fila}_ AND COLUMN _${columna}_*`)
 fila = null, columna = null, sopaNube = null, sopaPalabra = null, sopaDir = null, userSP = null, cambioLetra = null
 intentos = 0
 }else{
 if (intentos === 1) {
 fila = null, columna = null, sopaNube = null, sopaPalabra = null, sopaDir = null, userSP = null, cambioLetra = null
 intentos = 0
-await m.reply(`https://github.com/Khalid-official 🫡 *YOU EXHAUSTED YOUR ATTEMPT!! THE WORD _"${sopaPalabra}"_ WAS AT THE ADDRESS _${cambioLetra}_ FROM THE ROW _${fila}_ AND COLUMN _${columna}_*`)
+await m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q 🫡 *YOU EXHAUSTED YOUR ATTEMPT!! THE WORD _"${sopaPalabra}"_ WAS AT THE ADDRESS _${cambioLetra}_ FROM THE ROW _${fila}_ AND COLUMN _${columna}_*`)
 return  
 } else {
 intentos -= 1
-await m.reply(`https://github.com/Khalid-official 😮‍💨 *INCORRECT. YOU ARE LEFT _${intentos}_ ATTEMPTS!!*${intentos === 1 ? '' : `\n*PALABRA A ENCONTRAR:* \`\`\`${sopaPalabra}\`\`\``}\n\n${intentos === 1 ? `\`\`\`💡 TRACK!!\`\`\`\n*THE WORD _${sopaPalabra}_ FOUND AT THE ADDRESS _"${cambioLetra}"_*\n\n` : ''}${sopaNube}`)
+await m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q 😮‍💨 *INCORRECT. YOU ARE LEFT _${intentos}_ ATTEMPTS!!*${intentos === 1 ? '' : `\n*PALABRA A ENCONTRAR:* \`\`\`${sopaPalabra}\`\`\``}\n\n${intentos === 1 ? `\`\`\`💡 TRACK!!\`\`\`\n*THE WORD _${sopaPalabra}_ FOUND AT THE ADDRESS _"${cambioLetra}"_*\n\n` : ''}${sopaNube}`)
 }}
 }}
 
