@@ -12,3 +12,4 @@ m.reply(`*[ ✔ ] THE TEXT/COMMAND ASSIGNED TO THE STICKER/IMAGE WAS ADDED TO TH
 handler.command = ['setcmd', 'addcmd', 'cmdadd', 'cmdset']
 handler.rowner = true
 export default handler
+
