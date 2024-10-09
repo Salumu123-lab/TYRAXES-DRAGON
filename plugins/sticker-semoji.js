@@ -15,7 +15,7 @@ const handler = async (m, { usedPrefix, conn, args, text, command }) => {
     emoji = "😎";
     tipe = defaultType;
   }
-  const err = `https://github.com/Khalid-official ${tradutor.texto1[0]}
+  const err = `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ${tradutor.texto1[0]}
 *◉ ${usedPrefix + command} ${tradutor.texto1[1]}
 
 ${tradutor.texto1[0]}
