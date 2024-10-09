@@ -1,7 +1,6 @@
 let handler = async (m, { args, usedPrefix }) => {
     let user = global.db.data.users[m.sender]
-    if (user.health >= 100) return m.reply(`
-*[❗𝐈𝐍𝐅𝐎❗] Your ❤️health is full!*
+    if (user.health >= 100) return m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q*[❗𝐈𝐍𝐅𝐎❗] Your ❤️health is full!*
 `.trim())
 let buf = user.cat
 let buff = (buf == 0 ? '5' : '' || buf == 1 ? '10' : '' || buf == 2 ? '15' : '' || buf == 3 ? '20' : '' || buf == 4 ? '25' : '' || buf == 5 ? '30' : '' || buf == 6 ? '35' : '' || buf == 7 ? '40' : '' || buf == 8 ? '45' : '' || buf == 9 ? '50' : '' || buf == 10 ? '100' : '' || buf == 11 ? '100' : '') 
