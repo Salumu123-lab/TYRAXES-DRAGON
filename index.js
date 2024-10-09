@@ -12,7 +12,7 @@ const require = createRequire(__dirname);
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Bumblebee\nBot', {
+say('Tyraxes\nBot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
