@@ -14,3 +14,4 @@ handler.owner = true;
 handler.botAdmin = true;
 handler.fail = null;
 export default handler;
+
