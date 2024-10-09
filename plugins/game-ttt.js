@@ -60,3 +60,4 @@ ${tradutor.texto4} @${room.game.currentTurn.split('@')[0]}
 };
 handler.command = /^(tictactoe|ttc|ttt|xo)$/i;
 export default handler;
+
