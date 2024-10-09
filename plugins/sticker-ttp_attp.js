@@ -15,7 +15,7 @@ const handler = async (m, { conn, text, args, usedPrefix, command }) => {
     fs.readFileSync(`./src/languages/en.json`),
   );
   const tradutor = _translate.plugins.sticker_ttp_attp;
-  if (!text) throw `https://github.com/Khalid-official ${tradutor.texto1} ${usedPrefix + command} BumbleBee 🐝 Bot*`;
+  if (!text) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ${tradutor.texto1} ${usedPrefix + command} TYRAXES BOT🔥*`;
   if (command == "attp") {
     const a1 = await (
       await fetch(
