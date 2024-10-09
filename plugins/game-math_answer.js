@@ -19,7 +19,7 @@ handler.before = async function (m) {
                  clearTimeout(this.math[id][3])
                  delete this.math[id]
                  m.reply(`*Opportunities over*\n\n Response : *${math.result}*`)
-       } else m.reply(`https://github.com/Khalid-official ❎ *Wrong answer*\n\nThere are still ${this.math[id][2]} opportunities`)
+       } else m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ❎ *Wrong answer*\n\nThere are still ${this.math[id][2]} opportunities`)
          }
      }
      return !0
