@@ -2,9 +2,9 @@ import { createHash } from 'crypto'
 import PhoneNumber from 'awesome-phonenumber'
 import fetch from 'node-fetch'
 let handler = async(m, { conn, usedPrefix, participants, isPrems }) => {
-let pp = 'https://i.imgur.com/WHjtUae.jpg'
+let pp = 'https://i.imgur.com/jQh5iIT.jpeg'
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-if (!(who in global.db.data.users)) throw `https://github.com/Khalid-official  *[❗𝐈𝐍𝐅𝐎❗]The user you are mentioning is not registered in my database*`
+if (!(who in global.db.data.users)) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q  *[❗𝐈𝐍𝐅𝐎❗]The user you are mentioning is not registered in my database*`
 try {
 pp = await conn.profilePictureUrl(who)
 } catch (e) {
