@@ -10,9 +10,9 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   const _translate = JSON.parse(fs.readFileSync(`./src/languages/en.json`))
   const tradutor = _translate.plugins.convertidor_tovideo
 
-  if (!m.quoted) throw `https://github.com/Khalid-official *${tradutor.texto1} ${usedPrefix + command}*`;
+  if (!m.quoted) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *${tradutor.texto1} ${usedPrefix + command}*`;
   const mime = m.quoted.mimetype || '';
-  if (!/webp/.test(mime)) throw `https://github.com/Khalid-official *${tradutor.texto2} ${usedPrefix + command}*`;
+  if (!/webp/.test(mime)) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *${tradutor.texto2} ${usedPrefix + command}*`;
   const media = await m.quoted.download();
   let out = Buffer.alloc(0);
   if (/webp/.test(mime)) {
