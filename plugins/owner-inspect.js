@@ -2,7 +2,7 @@ import * as baileys from 'baileys';
 
 let handler = async (m, { conn, text }) => {
   let [, code] = text.match(/chat\.whatsapp\.com\/(?:invite\/)?([0-9A-Za-z]{20,24})/i) || [];
-  if (!code) throw 'https://github.com/Khalid-official *[❗INFO❗] Please provide a valid group link.*';
+  if (!code) throw 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗INFO❗] Please provide a valid group link.*';
   
   let res = await conn.query({ tag: 'iq', attrs: { type: 'get', xmlns: 'w:g2', to: '@g.us' }, content: [{ tag: 'invite', attrs: { code } }] });
   let data = extractGroupMetadata(res);
