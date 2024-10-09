@@ -41,3 +41,5 @@ export async function before(m, { conn, isAdmin, isBotAdmin, usedPrefix }) {
   }
   return !0;
 }
+
+
