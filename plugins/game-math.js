@@ -18,13 +18,13 @@ _📌Example : ${usedPrefix+command} normal_
 `.trim()
     
   let id = m.chat
-    if (id in conn.math) return conn.reply(m.chat, 'https://github.com/Khalid-official ⚠️ *[❗𝐈𝐍𝐅𝐎❗] There are still unanswered questions in this chat', conn.math[id][0])
+    if (id in conn.math) return conn.reply(m.chat, 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ⚠️ *[❗𝐈𝐍𝐅𝐎❗] There are still unanswered questions in this chat', conn.math[id][0])
     let math = genMath(mode)
     conn.math[id] = [
-        await conn.reply(m.chat, `https://github.com/Khalid-official ▢ HOW MUCH IS IT *${math.str}*=\n\n_Time:_ ${(math.time / 1000).toFixed(2)} seconds\n\n🎁 Reward : ${math.bonus} XP`, m),
+        await conn.reply(m.chat, `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ▢ HOW MUCH IS IT *${math.str}*=\n\n_Time:_ ${(math.time / 1000).toFixed(2)} seconds\n\n🎁 Reward : ${math.bonus} XP`, m),
         math, 4,
         setTimeout(() => {
-            if (conn.math[id]) conn.reply(m.chat, `https://github.com/Khalid-official ⏳ *[❗𝐈𝐍𝐅𝐎❗] Time is over!\nThe answer is* : *${math.result}*`, conn.math[id][0])
+            if (conn.math[id]) conn.reply(m.chat, `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ⏳ *[❗𝐈𝐍𝐅𝐎❗] Time is over!\nThe answer is* : *${math.result}*`, conn.math[id][0])
       delete conn.math[id]
         }, math.time)
     ]
