@@ -105,10 +105,10 @@ function randomId() {
 let handler = async (m, { conn, usedPrefix, command }) => {
 	conn.cartoon = conn.cartoon ? conn.cartoon : {};
 	if (m.sender in conn.cartoon)
-		throw "https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] There is still an unfinished process, my friend. Please wait until it's over. >//<*";
+		throw "https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] There is still an unfinished process, my friend. Please wait until it's over. >//<*";
 	let q = m.quoted ? m.quoted : m;
 	let mime = (q.msg || q).mimetype || q.mediaType || "";
-	if (!mime) throw `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] Where is the picture you want to convert to a cartoon?*`;
+	if (!mime) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] Where is the picture you want to convert to a cartoon?*`;
 	if (!/image\/(jpe?g|png)/.test(mime)) throw `file ${mime} not supported`;
 	else conn.cartoon[m.sender] = true;
 	m.reply("*[❗𝐈𝐍𝐅𝐎❗] converting the picture to cartoon*");
@@ -120,7 +120,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 					m.chat,
 					response.download.full,
 					"",
-					"https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] The operation was successful♥  >//<*",
+					"https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] The operation was successful♥  >//<*",
 					m
 				);
 				let name = await conn.getName(m.sender),
@@ -136,12 +136,12 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				conn.sendMessage(m.chat, await sticker.toMessage(), { quoted: m });
 			} else {
 				m.reply(
-					"https://github.com/Khalid-official Excuse me my friend, the picture does not reveal a face, please send a picture in which the face is exposed and visible."
+					"https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q Excuse me my friend, the picture does not reveal a face, please send a picture in which the face is exposed and visible."
 				);
 			}
 		});
 	} catch {
-		m.reply("https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] Process failed :(");
+		m.reply("https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] Process failed :(");
 	} finally {
 		conn.cartoon[m.sender] ? delete conn.cartoon[m.sender] : false;
 	}
