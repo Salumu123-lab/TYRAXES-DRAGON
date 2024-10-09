@@ -54,7 +54,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
         if (empireApijson1.resultado == 'error' || empireApijson1.resultado == '' || !empireApijson1.resultado) return XD; // causar error undefined para lanzar msg de error
         m.reply(`${empireApijson1.resultado}`.trim());
     } catch {
-      throw `https://github.com/Khalid-official *[❗] ERROR OCCURRED, TRY AGAIN LATER*`;
+      throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗] ERROR OCCURRED, TRY AGAIN LATER*`;
     }
    }
  }
