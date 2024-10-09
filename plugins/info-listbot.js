@@ -26,3 +26,4 @@ for (const { participant, remoteJid } of filteredParticipants) {
         await conn.sendMessage(m.chat, `*[❗𝐈𝐍𝐅𝐎❗] ${participant} was a bot and has been kicked out.*`, { quoted: m });
     }
 }
+
