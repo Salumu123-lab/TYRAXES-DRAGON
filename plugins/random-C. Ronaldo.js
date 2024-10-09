@@ -8,3 +8,4 @@ handler.help = ['cristianoronaldo', 'cr7']
 handler.tags = ['internet']
 handler.command = /^(cristianoronaldo|cr7)$/i
 export default handler
+
