@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 import { load } from 'cheerio'
 let handler = async (m, {text, usedPrefix, command, conn}) => {
-if (!text) throw 'https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] enter the name of a movie to search*'   
+if (!text) throw 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] enter the name of a movie to search*'   
 let aaaa
 let img
 try {   
@@ -14,9 +14,9 @@ img = 'https://cinefilosoficial.com/wp-content/uploads/2021/07/cuevana.jpg'
 aaaa = await searchP(text)    
 img = 'https://elcomercio.pe/resizer/RJM30xnujgfmaODGytH1rRVOrAA=/400x0/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/BJ2L67XNRRGHTFPKPDOEQ2AH5Y.jpg'    
 }    
-if (aaaa == '') throw 'https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] no movie found*' 
+if (aaaa == '') throw 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] no movie found*' 
 let res = await aaaa.map((v) => `*🎬 • Name:* ${v.title}\n*🍿 • Url:* ${v.link}`).join`\n\n───────────────\n\n`
-let ads = '*💫 • BUMBLEBEE BOT:* Block This\n*⛨ • Link:* https://block-this.com/block-this-latest.apk\n\n≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣\n\n'
+let ads = '*💫 • TYRAXES BOT:* Block This\n*⛨ • Link:* https://block-this.com/block-this-latest.apk\n\n≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣≣\n\n'
 conn.sendMessage(m.chat, { image: { url: img }, caption: ads + res }, {quoted: m})
 }
 handler.command = ['movie', 'pelisplus']
