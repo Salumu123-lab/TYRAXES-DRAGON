@@ -16,8 +16,8 @@ sider.push(member[i])}
 }else {
 total++
 sider.push(member[i])}}}
-if(total == 0) return conn.reply(m.chat, `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] THIS GROUP IS ACTIVE, NO GHOSTS::D*`, m) 
-m.reply(`https://github.com/Khalid-official *[ ⚠INACTIVE REVIEW⚠ ]*\n\n*GROUP:* ${await conn.getName(m.chat)}\n*GROUP MEMBERS:* ${sum}\n\n*[ 👻 GHOST LIST 👻 ]*\n${sider.map(v => '  🐝 @' + v.replace(/@.+/, '')).join('\n')}\n\n*[❗𝐈𝐍𝐅𝐎❗] NOTE: THIS MAY NOT BE 𝟷𝟶𝟶% SUCCESSFUL, THE BOT STARTS COUNTING MESSAGES AS OF BEING ACTIVATED ON THIS NUMBER*`, null, { mentions: sider })}
+if(total == 0) return conn.reply(m.chat, `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] THIS GROUP IS ACTIVE, NO GHOSTS::D*`, m) 
+m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[ ⚠INACTIVE REVIEW⚠ ]*\n\n*GROUP:* ${await conn.getName(m.chat)}\n*GROUP MEMBERS:* ${sum}\n\n*[ 👻 GHOST LIST 👻 ]*\n${sider.map(v => '  🐝 @' + v.replace(/@.+/, '')).join('\n')}\n\n*[❗𝐈𝐍𝐅𝐎❗] NOTE: THIS MAY NOT BE 𝟷𝟶𝟶% SUCCESSFUL, THE BOT STARTS COUNTING MESSAGES AS OF BEING ACTIVATED ON THIS NUMBER*`, null, { mentions: sider })}
 handler.command = /^(verfantasmas|inactive|sider)$/i
 handler.admin = true
 handler.botAdmin = true
