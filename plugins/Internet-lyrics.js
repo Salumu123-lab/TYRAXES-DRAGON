@@ -20,3 +20,4 @@ handler.tags = ['tools'];
 handler.command = ['testo', 'lyrics', 'letras'];
 
 export default handler;
+
