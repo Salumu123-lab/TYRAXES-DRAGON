@@ -22,7 +22,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     }
     if (/webp|image|video/g.test(mime)) {
       const img = await q.download?.();
-      if (!img) throw `https://github.com/Khalid-official ${tradutor.texto1} ${usedPrefix + command}*`;
+      if (!img) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ${tradutor.texto1} ${usedPrefix + command}*`;
       let out;
       try {
         stiker = await sticker(img, false, global.packname, global.author, ["✨"], metadata);
@@ -39,14 +39,14 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
       }
     } else if (args[0]) {
       if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname, global.author, ["✨"], metadata);
-      else return m.reply(`https://github.com/Khalid-official ${tradutor.texto2} ${usedPrefix}s https://telegra.ph/file/0dc687c61410765e98de2.jpg*`);
+      else return m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ${tradutor.texto2} ${usedPrefix}s https://i.imgur.com/jQh5iIT.jpeg*`);
     }
   } catch (e) {
     console.error(e);
     if (!stiker) stiker = e;
   } finally {
     if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m);
-   else return m.reply(`https://github.com/Khalid-official ${tradutor.texto3}` + ` ${usedPrefix + command}*`);
+   else return m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ${tradutor.texto3}` + ` ${usedPrefix + command}*`);
   }
 };
 handler.help = ['sfull'];
