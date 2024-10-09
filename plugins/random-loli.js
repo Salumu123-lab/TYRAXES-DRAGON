@@ -374,3 +374,4 @@ global.loli = [
 	"https://i.imgur.com/cIbfUOw.jpg",
 	"https://i.imgur.com/jUH2dFn.jpg"
 ]
+
