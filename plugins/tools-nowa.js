@@ -1,11 +1,11 @@
 /*------------------------------------------------ ---------------------------------------
-   🍀 • By https://github.com/ALBERTO9883
-   🍀 • ⚘Alberto And Ashly⚘
+   🍀 • By https://github.com/Arlo-dragony
+   🍀 • ⚘Arlodragon⚘
 -------------------------------------------------- ---------------------------------------*/
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 let regex = /x/g
-if (!text) throw 'https://github.com/Khalid-official ⚠️ Missing number.'
-if (!text.match(regex)) throw `*Usage example: ${usedPrefix + command} 254736958034x*`
+if (!text) throw 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ⚠️ Missing number.'
+if (!text.match(regex)) throw `*Usage example: ${usedPrefix + command} 254746764x*`
 let random = text.match(regex).length, total = Math.pow(10, random), array = []
 for (let i = 0; i < total; i++) {
 let list = [...i.toString().padStart(random, '0')]
