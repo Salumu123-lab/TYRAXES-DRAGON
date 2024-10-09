@@ -53,3 +53,4 @@ ${replyMessage.trim()}`.trim();
 handler.command = handler.help = ['listjadibot', 'bots', 'subsbots'];
 handler.tags = ['jadibot'];
 export default handler;
+
