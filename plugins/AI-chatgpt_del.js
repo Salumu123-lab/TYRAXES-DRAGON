@@ -9,3 +9,4 @@ const handler = async (m, {usedPrefix}) => {
 };
 handler.command = ['delchatgpt'];
 export default handler;
+
