@@ -2,7 +2,7 @@ import yts from 'yt-search'
 import fs from 'fs'
 
 let handler = async (m, {conn, text }) => {
-  if (!text) throw 'https://github.com/Khalid-official [❗𝐈𝐍𝐅𝐎❗] *_What do you want me to look for on YouTube?_*'
+  if (!text) throw 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q [❗𝐈𝐍𝐅𝐎❗] *_What do you want me to look for on YouTube?_*'
   let results = await yts(text)
   let tes = results.all
   console.log(tes)
