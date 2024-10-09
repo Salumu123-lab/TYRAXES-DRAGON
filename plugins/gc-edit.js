@@ -4,7 +4,7 @@ const handler = async (m, {
   command,
   isBotAdmin,
 }) => {
-  if (!m.quoted) throw 'https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] Reply to the message you want to edit*'; if (!text) throw '*[❗𝐈𝐍𝐅𝐎❗] No Text*'; if (!m.quoted.isBaileys) throw '*[❗𝐈𝐍𝐅𝐎❗] Messages are not sent by bots*';
+  if (!m.quoted) throw 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] Reply to the message you want to edit*'; if (!text) throw '*[❗𝐈𝐍𝐅𝐎❗] No Text*'; if (!m.quoted.isBaileys) throw '*[❗𝐈𝐍𝐅𝐎❗] Messages are not sent by bots*';
 
   try {
     await conn.sendMessage(m.chat, {
