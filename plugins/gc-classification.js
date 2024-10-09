@@ -11,7 +11,7 @@ const handler = async (m, {
   const sortedMessaggi = utenti.map(toNumber('messaggi')).sort(sort('messaggi'));
   const utentiMessaggi = sortedMessaggi.map(enumGetKey);
   const len = args[0] && args[0].length > 0 ? Math.min(100, Math.max(parseInt(args[0]), 20)) : Math.min(20, sortedMessaggi.length);
-  const text = `https://github.com/Khalid-official [❗𝐈𝐍𝐅𝐎❗] 🏆  Classification
+  const text = `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q [❗𝐈𝐍𝐅𝐎❗] 🏆  Classification
 Top 20 best users by category
 
 💬 Messages
