@@ -16,7 +16,7 @@ global.dfail('admin', m, conn)
        '0': 'announcement',
    }[(args[0] || '')]
    if (isClose === undefined) {
-letcaption = `https://github.com/Khalid-official 
+letcaption = `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q 
 *[❗𝐈𝐍𝐅𝐎❗] Example:*
 *${usedPrefix + command} open 1*
 *${usedPrefix + command} close 1*
@@ -28,7 +28,7 @@ throw false
    }
    let timeoutset = 86400000 * args[1] / 24
    await conn.groupSettingUpdate(m.chat, isClose).then(async _=> {
-m.reply(`https://github.com/Khalid-official ⚠️ *[❗𝐈𝐍𝐅𝐎❗] _Group ${isClose == 'announcement' ? 'closed' : 'open'} ${args[1] ? `during *${clockString(timeoutset)}_*` : ''}` )
+m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ⚠️ *[❗𝐈𝐍𝐅𝐎❗] _Group ${isClose == 'announcement' ? 'closed' : 'open'} ${args[1] ? `during *${clockString(timeoutset)}_*` : ''}` )
    })
    if (args[1]) {
 setTimeout(async() => {
