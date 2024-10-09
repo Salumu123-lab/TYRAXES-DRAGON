@@ -9,10 +9,10 @@ const handler = async (m, {conn, usedPrefix, command}) => {
 
   const q = m.quoted ? m.quoted : m;
   const mime = (m.quoted ? m.quoted : m.msg).mimetype || '';
-  if (!/video|audio/.test(mime)) throw `https://github.com/Khalid-official *${tradutor.texto1}*`;
+  if (!/video|audio/.test(mime)) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *${tradutor.texto1}*`;
   const media = await q.download?.();
-  if (!media && !/video/.test(mime)) throw `https://github.com/Khalid-official *${tradutor.texto2}*`;
-  if (!media && !/audio/.test(mime)) throw `https://github.com/Khalid-official *${tradutor.texto3}*`;
+  if (!media && !/video/.test(mime)) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *${tradutor.texto2}*`;
+  if (!media && !/audio/.test(mime)) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *${tradutor.texto3}*`;
   const audio = await toPTT(media, 'mp4');
   if (!audio.data && !/audio/.test(mime)) throw `https://github.com/Khalid-official *${tradutor.texto4}*`;
   if (!audio.data && !/video/.test(mime)) throw `*${tradutor.texto5}*`;
