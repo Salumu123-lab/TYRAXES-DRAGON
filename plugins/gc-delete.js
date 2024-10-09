@@ -1,7 +1,7 @@
 
 let handler = async (m, { conn, usedPrefix, command }) => {
 	
-if (!m.quoted) throw `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] Respond to the message to be deleted*`
+if (!m.quoted) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] Respond to the message to be deleted*`
 try {
 let delet = m.message.extendedTextMessage.contextInfo.participant
 let bang = m.message.extendedTextMessage.contextInfo.stanzaId
