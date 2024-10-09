@@ -5,7 +5,7 @@ import { readdirSync, unlinkSync, rmSync } from 'fs';
 
 let handler = async(m, { conn, __dirname, args }) => {
 
-   m.reply(`https://github.com/Khalid-official ✅ Cleaned *tmp + sessions* folder`);
+   m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ✅ Cleaned *tmp + sessions* folder`);
    m.react(done);
    // -- remove temporary files ---
    const tmpDirs = [tmpdir(), join(__dirname, '../tmp')];
