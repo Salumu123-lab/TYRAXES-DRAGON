@@ -15,3 +15,4 @@ m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝚂𝙸𝙴𝙽𝚃𝙾, 𝙾𝙲�
 handler.command = /^scircle|circle$/i
 export default handler
 /* `https://api.dhamzxploit.my.id/api/canvas/circle?url=${url}` */
+
