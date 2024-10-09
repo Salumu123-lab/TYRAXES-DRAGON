@@ -5,3 +5,4 @@ handler.help = ['lolivid']
 handler.tags = ['random']
 handler.command = /^(lolivid|lolivideos|lolívid)$/i
 export default handler
+
