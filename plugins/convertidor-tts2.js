@@ -26,12 +26,12 @@ const handler = async (m, { conn, usedPrefix, command, text, args }) => {
 
   if (!efecto) {
     let voiceList = await getVoiceList();
-    let responseText = `https://github.com/Khalid-official *${tradutor.texto1}*\n`;
+    let responseText = `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *${tradutor.texto1}*\n`;
 
     for (let i = 0, count = 0; count < 100 && i < voiceList.resultado.length; i++) {
       const entry = voiceList.resultado[i];
       if (entry.ID.length <= 20) {
-        responseText += `https://github.com/Khalid-official *◉ ${usedPrefix + command} ${entry.ID} ${tradutor.texto2}*\n`;
+        responseText += `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *◉ ${usedPrefix + command} ${entry.ID} ${tradutor.texto2}*\n`;
         count++;
       }
     }
@@ -48,9 +48,9 @@ const handler = async (m, { conn, usedPrefix, command, text, args }) => {
     }
   }
 
-  if (!efectoValido) return conn.sendMessage(m.chat, { text: `https://github.com/Khalid-official *${tradutor.texto3[0]} ${usedPrefix + command} ${tradutor.texto3[1]}*` }, { quoted: m });
+  if (!efectoValido) return conn.sendMessage(m.chat, { text: `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *${tradutor.texto3[0]} ${usedPrefix + command} ${tradutor.texto3[1]}*` }, { quoted: m });
 
-  if (!texto) return conn.sendMessage(m.chat, {text: `https://github.com/Khalid-official *${tradutor.texto4[0]}*\n*◉ ${usedPrefix + command} ${efecto} ${tradutor.texto4[1]}*`}, {quoted: m});
+  if (!texto) return conn.sendMessage(m.chat, {text: `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *${tradutor.texto4[0]}*\n*◉ ${usedPrefix + command} ${efecto} ${tradutor.texto4[1]}*`}, {quoted: m});
 
   let masivo = await makeTTSRequest(texto, efecto);
   conn.sendMessage(m.chat, {audio: {url: masivo.resultado}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
