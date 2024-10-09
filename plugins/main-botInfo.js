@@ -41,32 +41,32 @@ let handler = async (m, { conn, usedPrefix, command }) => {
    let neww = performance.now()
    let speed = neww - old
   
-let infobt = `[❗𝐈𝐍𝐅𝐎❗]
-≡ *BUMBLEBEE BOT INFO*
+let infobt = `[𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓 𝖎𝖓𝖋𝖔]
+≡ *TYRAXES BOT INFO*
   *STATE*
-🐝 *${groupsIn.length}* Group Chats
-🐝 *${groupsIn.length}* United groups
-🐝 *${groupsIn.length - groupsIn.length}* Abandoned groups
-🐝 *${chats.length - groupsIn.length}* Private chats
-🐝 *${chats.length}* Total Chats
+📢 *${groupsIn.length}* Group Chats
+📢 *${groupsIn.length}* United groups
+📢 *${groupsIn.length - groupsIn.length}* Abandoned groups
+📢 *${chats.length - groupsIn.length}* Private chats
+📢 *${chats.length}* Total Chats
 
 *≡ OWNER*
-   KHALID-TECHNOLOGIES
-🐝Instagram :
-   •https://github.com/Khalid-official
-🐝 WhatsApp :
+   𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓 𝖎𝖘 𝖒𝖞 𝖔𝖜𝖓𝖊𝖗
+🔥Instagram :
+   •https://github.com/Kingdragony
+🔥 WhatsApp : +254702713600
    • (DM ONLY WHEN NECESSARY)
-🐝 GitHub :
-   • https://github.com/Khalid-official/BUMBLEBEE-BOT
+🔥 channel :
+   • https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q
  
   *≡ HELPERS* *CRISS*
-🐝 WhatsApp : wa.me/254114098508
+🇰🇪 WhatsApp : wa.me/254702713600
    khalid+TECHNOLOGY 
-🐝 WhatsApp : wa.me/254736958034
+🇰🇪 WhatsApp : wa.me/254746764468
 
   *≡ S E R V E R*
-*🛑RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-*🔵FreeRAM:* ${format(freemem())}
+*💻RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
+*📟FreeRAM:* ${format(freemem())}
 
 *≡ NodeJS Memory Usage*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length )), ' ')}: ${format(used[key])}`).join('\n') + '```'}
