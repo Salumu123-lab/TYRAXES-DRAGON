@@ -25,7 +25,7 @@ const idioma = 'en'
 const sistema1 = `A whatsapp bot created by Khalid official `;
 const handler = async (m, {conn, text, usedPrefix, command}) => {
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
-  if (!text) throw `https://github.com/Khalid-official *[❗] Insert a button to make the command function*\n\n*—◉ Example:*\n*◉ ${usedPrefix + command} when did world war one start?*\n*◉ ${usedPrefix + command} js code for chess game*`;
+  if (!text) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗] Insert a button to make the command function*\n\n*—◉ Example:*\n*◉ ${usedPrefix + command} when did world war one start?*\n*◉ ${usedPrefix + command} js code for chess game*`;
   try {
         conn.sendPresenceUpdate('composing', m.chat);
         async function getOpenAIChatCompletion(texto) {
@@ -124,7 +124,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
         const audio10 = await tts(akuariapiresult1.text, idioma);
         await conn.sendMessage(m.chat, {audio: audio10, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});                           
     } catch {
-        throw `https://github.com/Khalid-official *[❗] 𝙴𝚁𝚁𝙾𝚁*`;
+        throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗] 𝙴𝚁𝚁𝙾𝚁*`;
      }}
     }}
    }}
