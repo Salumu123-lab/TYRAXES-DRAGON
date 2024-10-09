@@ -22,3 +22,4 @@ const handler = async (m, {conn, text}) => {
 };
 handler.command = /^sremovebg|removebg$/i;
 export default handler;
+
