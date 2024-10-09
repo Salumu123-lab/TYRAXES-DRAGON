@@ -11,10 +11,10 @@ How much you want to bet?
     let apuesta = parseInt(args[0])
     let users = global.db.data.users[m.sender]
     let time = users.lastslot + 10000
-    if (new Date - users.lastslot < 10000) throw `https://github.com/Khalid-official ⏳ *[❗𝐈𝐍𝐅𝐎❗] wait *${msToTime(time - new Date())}* *to use again*`
-    if (apuesta < 100) throw 'https://github.com/Khalid-official ✳️ *[❗𝐈𝐍𝐅𝐎❗] Minimum of the bet is *100 XP*'
+    if (new Date - users.lastslot < 10000) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ⏳ *[❗𝐈𝐍𝐅𝐎❗] wait *${msToTime(time - new Date())}* *to use again*`
+    if (apuesta < 100) throw 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ✳️ *[❗𝐈𝐍𝐅𝐎❗] Minimum of the bet is *100 XP*'
     if (users.exp < apuesta) {
-        throw `https://github.com/Khalid-official https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] You do not have enough xp*`
+        throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] You do not have enough xp*`
     }
 
     let emojis = ["🕊️", "🦀", "🦎"];
