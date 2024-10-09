@@ -5,10 +5,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
      if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
      else who = m.chat
      let user = global.db.data.users[who]
-     if (!who) throw `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗]Tag or mention the user to unban😜*`
+     if (!who) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗]Tag or mention the user to unban😜*`
      let users = global.db.data.users
      users[who].banned = false
-     conn.reply(m.chat, `https://github.com/Khalid-official 
+     conn.reply(m.chat, `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q 
 ✅ UNBAN
 
 ───────────
