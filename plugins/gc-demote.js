@@ -6,8 +6,8 @@ var number = text.split`@`[1]
 }else if(!isNaN(text)) {
 var number = text
 }
-if(!text && !m.quoted) return conn.reply(m.chat, `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] Use the command* \n *${usedPrefix + command}* @tag (or reply to a message)`, m)
-if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] Wrong number*`, m)
+if(!text && !m.quoted) return conn.reply(m.chat, `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] Use the command* \n *${usedPrefix + command}* @tag (or reply to a message)`, m)
+if(number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] Wrong number*`, m)
   
 try {
 if(text) {
@@ -20,7 +20,7 @@ var user = number + '@s.whatsapp.net'
 } catch(e) {
 } finally {
 conn.groupParticipantsUpdate(m.chat, [user], 'demote')
-m.reply(`https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] User demoted*`)
+m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] User demoted*`)
 }
 
 }
