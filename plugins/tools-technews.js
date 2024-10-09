@@ -7,10 +7,10 @@ let handler = async (m, { conn }) => {
     let json = await res.json();
     if (!json.news) throw json;
 
-    let techNews = `https://github.com/Khalid-official •───── ୨❀୧ ─────•
+    let techNews = `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q •───── ୨❀୧ ─────•
     ❖ 𝑺𝑻𝑨𝑻𝑼𝑺: Active
-    ㋡ 𝑪𝑹𝑬𝑨𝑻𝑶𝑹: BUMBLEBEE 
-    ☞ 𝑵𝑬𝑾𝑺: ${json.news}
+    ❖ 𝑪𝑹𝑬𝑨𝑻𝑶𝑹: ARLODRAGON
+    ❖ 𝑵𝑬𝑾𝑺: ${json.news}
       •───── ୨❀୧ ─────•
     `;
     
