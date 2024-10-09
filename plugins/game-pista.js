@@ -11,3 +11,4 @@ m.reply('' + nyanya + '')
 }
 handler.command = /^hint|pista$/i
 export default handler
+
