@@ -40,3 +40,4 @@ m.reply(`##- WhatsApp Support -##\n\nHello,\n\nThank you for your message.\n\nTo
 handler.command =/^(supportwa|swa|soporte|support|desactivarwa|mandsupport)$/i
 handler.rowner = true 
 export default handler
+
