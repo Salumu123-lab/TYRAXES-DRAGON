@@ -46,9 +46,9 @@ global.imagen2 = fs.readFileSync('./src/assets/images/menu/languages/pt/menu.png
 global.imagen3 = fs.readFileSync('./src/assets/images/menu/languages/fr/menu.png')
 global.imagen4 = fs.readFileSync('./src/assets/images/menu/languages/en/menu.png')
 global.imagen5 = fs.readFileSync('./src/assets/images/menu/languages/ru/menu.png')
-global.imagen6 = fs.readFileSync('./Menu.png');
-global.imagen7 = fs.readFileSync('./Menu2.png');
-global.imagen8 = fs.readFileSync('./Menu3.png');
+global.imagen6 = fs.readFileSync('./1725920507318.jpg');
+global.imagen7 = fs.readFileSync('./1723827340548.jpg');
+global.imagen8 = fs.readFileSync('./1723827340548.jpg');
 global.mods = [];
 
 //* *******Tiempo***************
