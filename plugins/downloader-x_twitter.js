@@ -1,7 +1,7 @@
 import axios from 'axios';
 let enviando = false;
 const handler = async (m, {conn, text, usedPrefix, command}) => {
-if (!text) throw `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] enter the link X (twitter), example: ${usedPrefix + command}* https://twitter.com/auronplay/status/1586487664274206720?s=20&t=3snvkvwGUIez5iWYQAehpw`;
+if (!text) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] enter the link X (twitter), example: ${usedPrefix + command}* https://twitter.com/auronplay/status/1586487664274206720?s=20&t=3snvkvwGUIez5iWYQAehpw`;
 if (enviando) return;
     enviando = true;
 try {
@@ -24,7 +24,7 @@ try {
   }
 } catch {
     enviando = false;
-    throw 'https://github.com/Khalid-official *[❗] Error, try again later.*';
+    throw 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗] Error, try again later.*';
     return;
   }
 };    
