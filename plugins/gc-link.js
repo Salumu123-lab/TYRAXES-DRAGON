@@ -52,9 +52,9 @@ const handler = async (m, {conn, args}) => {
         conn.reply(m.chat, 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group), m, {
            contextInfo: {externalAdReply: {mediaUrl: null, mediaType: 1, description: null,
            title: tradutor.texto1[0],
-           body: '*BUMBLEBEE 🐝 BOT*',
+           body: '*TYRAXES BOT*',
            previewType: 0, thumbnail: fs.readFileSync('./src/assets/images/menu/languages/es/menu.png'),
-           sourceUrl: `https://github.com/khalid-official/BUMBLEBEE-BOT`}
+           sourceUrl: `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q`}
            }
         }
       );  
