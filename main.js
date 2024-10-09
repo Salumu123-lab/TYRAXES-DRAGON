@@ -268,7 +268,7 @@ fs.watch(dirToWatchccc, (eventType, filename) => {
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./BumbleSession")
+let directorio = readdirSync("./Tyraxessession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
 })
@@ -295,7 +295,7 @@ unlinkSync(`./jadibts/${directorio}/${fileInDir}`)
 })
 if (SBprekey.length === 0) return; //console.log(chalk.cyanBright(`=> No hay archivos por eliminar.`))
 } catch (err) {
-console.log(chalk.bold.red(`[ ℹ️ ] Something went wrong during deletion, files not deleted`))
+console.log(chalk.bold.red(`[ 📢 ] Something went wrong during deletion, files not deleted`))
 }}
 
 function purgeOldFiles() {
@@ -407,12 +407,12 @@ global.reloadHandler = async function(restatConn) {
 
   // Para cambiar estos mensajes, solo los archivos en la carpeta de language, 
   // busque la clave "handler" dentro del json y cámbiela si es necesario
-  conn.spromote = 'https://github.com/Khalid-official *🐝@user HAS BEEN PROMOTED TO ADMINSHIP, ENJOY YOUR RANKING FHAM🥂*';
-  conn.sdemote = 'https://github.com/Khalid-official *🐝@user HAS BEEN DEMOTED FROM ADMINSHIP, SO SHAMFULL😢*';
-  conn.sDesc = 'https://github.com/Khalid-official *THE DESCRIPTION HAS BEEN MODIFIED*\n\n*NEW DESCRIPTION:* @desc'
-  conn.sSubject = 'https://github.com/Khalid-official *🐝GROUP NAME HAS BEEN CHANGED🐝*\n*🐝NEW NAME🐝:* @subject'
-  conn.sIcon = 'https://github.com/Khalid-official *🐝THE GROUP PHOTO HAS BEEN CHANGED🐝!!*'
-  conn.sRevoke = 'https://github.com/Khalid-official *🐝GROUP LINK HAS BEEN REVOKED🐝!!*\n*NEW LINK:* @revoke';
+  conn.spromote = 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *🐝@user HAS BEEN PROMOTED TO ADMINSHIP, ENJOY YOUR RANKING FHAM🥂*';
+  conn.sdemote = 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *🐝@user HAS BEEN DEMOTED FROM ADMINSHIP, SO SHAMFULL😢*';
+  conn.sDesc = 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *THE DESCRIPTION HAS BEEN MODIFIED*\n\n*NEW DESCRIPTION:* @desc'
+  conn.sSubject = 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *🐝GROUP NAME HAS BEEN CHANGED🐝*\n*🐝NEW NAME🐝:* @subject'
+  conn.sIcon = 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *🐝THE GROUP PHOTO HAS BEEN CHANGED🐝!!*'
+  conn.sRevoke = 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *🐝GROUP LINK HAS BEEN REVOKED🐝!!*\n*NEW LINK:* @revoke';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
