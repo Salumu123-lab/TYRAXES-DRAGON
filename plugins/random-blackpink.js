@@ -22,3 +22,4 @@ handler.help = ['blackpink']
 handler.tags = ['internet']
 handler.command = /^(blackpink)$/i
 export default handler
+
