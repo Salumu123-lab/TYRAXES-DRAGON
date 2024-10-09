@@ -14,26 +14,26 @@ global.authFile = `BumbleSession`;
 global.isBaileysFail = false
 
 global.owner = [
-  ['254736958034', '👑 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐓𝐎𝐑👑', true],
-  ['254114098508', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['254756315796', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['211926995546', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['254114098508', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['254715974014', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
-  ['254786697293', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
-  ['254745387716', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
-  ['255675536732', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
-  ['923470027813', '💫 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['967730588759', '💫 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
+  ['254702713600', '👑 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐓𝐎𝐑👑', true],
+  ['254746764468', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
+  ['254793057056', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
+  ['254702713600', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
+  ['254702713600', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
+  ['254702713600', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
+  ['254702713600', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
+  ['254702713600', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
+  ['254702713600', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
+  ['254702713600', '💫 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
+  ['254702713600', '💫 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
 ];
 
-global.suittag = ['254114098508'];
-global.prems = ['254114098508'];
+global.suittag = ['254702713600'];
+global.prems = ['254702713600'];
 
 // API
 global.BASE_API_DELIRIUS = "https://deliriusapi-official.vercel.app";
 
-global.packname = 'Bee O-tech';
+global.packname = 'Arlodragon tech';
 global.author = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
 global.wm = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
 global.titulowm = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
@@ -63,13 +63,13 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.wm2 = `${dia} ${fecha}\nThe Bumblebee 🐝 Bot`;
 global.gt = 'The Bumblebee 🐝 Bot';
 global.mysticbot = 'The Bumblebee 🐝 Bot';
-global.channel = 'https://github.com/khalid-official';
-global.md = 'https://github.com/khalid-official/BUMBLEBEE-BOT';
+global.channel = 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q';
+global.md = 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '[❗] 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
 global.waittt = '[❗] 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
 global.waitttt = '[❗] 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
-global.nomorown = '254736958034';
+global.nomorown = '254702713600';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
