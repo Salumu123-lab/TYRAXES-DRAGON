@@ -11,7 +11,7 @@ const handler = async (m, {conn, command}) => {
       const name = await conn.getName(who);
       m.reply(name);
     } catch {
-      throw `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] Sorry, I can't try the others⍨*`;
+      throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] Sorry, I can't try the others⍨*`;
     }
   }
 };
