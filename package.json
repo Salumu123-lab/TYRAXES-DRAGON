@@ -1,5 +1,5 @@
 {
-  "name": "BUMBLEBEE BOT",
+  "name": "TYRAXES BOT",
   "version": "1.0.0",
   "description": "If You Like It, Kindly Give a 5 Star",
   "main": "index.js",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/khalid-official/BUMBLEBEE-BOT",
   "author": {
-    "name": "KhalidOfficial"
+    "name": "Arlodragon"
   },
   "repository": {
     "type": "git",
