@@ -4,7 +4,7 @@ let exec = promisify(_exec).bind(cp)
 let handler = async (m, { conn, isOwner, command, text, usedPrefix, args, isROwner }) => {
 if (!isROwner) return  
 if (global.conn.user.jid != conn.user.jid) return
-m.reply('https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗]  Executing order...*')
+m.reply('https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗]  Executing order...*')
 let o
 try {
 o = await exec(command.trimStart()  + ' ' + text.trimEnd())
