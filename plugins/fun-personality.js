@@ -1,7 +1,7 @@
 const handler = async (m, {conn, command, text}) => {
   if (!text) return conn.reply(m.chat, 'tag a person?', m);
 
-  const personalidad = `https://github.com/Khalid-official 
+  const personalidad = `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q 
 ┏━━°❀❬ *PERSONALITY}* ❭❀°━━┓
 *┃*
 *┃• NAME* : ${text}
