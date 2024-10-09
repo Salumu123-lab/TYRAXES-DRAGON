@@ -2,7 +2,7 @@ const handler = async (m, {conn, text}) => {
   let [namagc, partici] = text.split('|');
   const name = conn.getName(conn.user.jid);
   const petik = '```';
-  if (!namagc) throw 'https://github.com/Khalid-official [*[❗𝐈𝐍𝐅𝐎❗] NAME OF THE GRP??*]!!!';
+  if (!namagc) throw 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q [*[❗𝐈𝐍𝐅𝐎❗] NAME OF THE GRP??*]!!!';
   if (!partici) partici = `@${m.sender.split('@')[0]}`;
   if (!namagc) namagc = text;
   const ha = await conn.groupCreate(namagc, conn.parseMention(partici));
