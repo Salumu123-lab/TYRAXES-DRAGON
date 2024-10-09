@@ -14,7 +14,7 @@ let handler = (m, { usedPrefix, command, text }) => {
     const birthday = [tahun + (birth[1] < bulan), ...birth.slice(1)]
     const cekusia = bulan === birth[1] && tanggal === birth[2] ? `*[❗𝐈𝐍𝐅𝐎❗] ${age} -happy birthday to you 🥳*` : age
 
-    const teks = `https://github.com/Khalid-official 
+    const teks = `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q 
     [❗𝐈𝐍𝐅𝐎❗]
 Born : ${birth.join('-')}
 Upcoming Birthday : ${birthday.join('-')}
@@ -22,7 +22,7 @@ Age : ${cekusia}
 Zodiac : ${zodiac}
 
 
-BUMBLEBEE • 𝒎𝒖𝒍𝒕𝒊 𝒅𝒆𝒗𝒊𝒄𝒆 𝒃𝒐𝒕\nowner: +254736958034
+TYRAXES• 𝒎𝒖𝒍𝒕𝒊 𝒅𝒆𝒗𝒊𝒄𝒆 𝒃𝒐𝒕\nowner: +254702713600
 `.trim()
     m.reply(teks)
 }
