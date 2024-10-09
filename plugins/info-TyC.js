@@ -4,7 +4,7 @@ handler.customPrefix = /terms and conditions and privacy|termsandconditionsandpr
 handler.command = new RegExp
 export default handler
 
-global.terms = `https://github.com/Khalid-official 
+global.terms = `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q 
 *=> [❗𝐈𝐍𝐅𝐎❗]Ignorance of what is mentioned here does not exempt the owner of the Bot, Sub Bot or user of the bot from the sanctions that may be derived❗*
 
 *[❗𝐈𝐍𝐅𝐎❗]Priv∆cy*
@@ -29,7 +29,7 @@ _- If at any time you receive a message from the Bot number and it is not a comm
 *- https://github.com/BochilGaming/games-wabot-md*
 
 *➤ Thanks to:*
-*- Khalid technologies*
+*- Arlodragon technologies*
 *- Narutomo*
 *- BochilGaming*
 *- Khalid modz*
@@ -41,8 +41,8 @@ _- If at any time you receive a message from the Bot number and it is not a comm
 *[❗𝐈𝐍𝐅𝐎❗] Do you have any doubts?*
 _- If you still have any questions or complaints about what is mentioned here or regarding the Bot, contact me at my personal number to which I will be responding as soon as possible to provide you with a solution and/or hold me responsible for any complaint_
 
-> wa.me/254114098508
-> Email: khalidniccur2000@gmail.com
->Email: wa.me/254736958034
+> wa.me/254702713600
+> Email: denniskipkoe393@gmail.com
+>Email: wa.me/254702713600
 
-*∆ 𝙱𝚄𝙼𝙱𝙻𝙴🐝𝙱𝙴𝙴 𝙱𝙾𝚃 ∆*`
+*∆ TYRAXES DRAGON  ∆*`
