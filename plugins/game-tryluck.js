@@ -11,12 +11,12 @@ const money = Math.floor(Math.random() * 10000)
 let rulet = ['text', 'text2', 'text3', 'text4', 'text5', 'text6']; 
 let ruleta = rulet[Math.floor(Math.random() * 6)]
 global.db.data.users[m.sender].juegos = new Date * 1;
-if (ruleta === 'text') return m.reply(`https://github.com/Khalid-official 😺 *[❗𝐈𝐍𝐅𝐎❗] WHAT A GOOD SUPPLY* 🐞🍀\n*GOOD:* ${exp} XP`).catch(global.db.data.users[m.sender].exp += exp) 
-if (ruleta === 'text2') return m.reply(`https://github.com/Khalid-official 😿 *[❗𝐈𝐍𝐅𝐎❗] NOO YOU ARE UNLUCKY YOU JUST LOST* : ${exp} XP`).catch(global.db.data.users[m.sender].exp -= exp) 
+if (ruleta === 'text') return m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q 😺 *[❗𝐈𝐍𝐅𝐎❗] WHAT A GOOD SUPPLY* 🐞🍀\n*GOOD:* ${exp} XP`).catch(global.db.data.users[m.sender].exp += exp) 
+if (ruleta === 'text2') return m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q 😿 *[❗𝐈𝐍𝐅𝐎❗] NOO YOU ARE UNLUCKY YOU JUST LOST* : ${exp} XP`).catch(global.db.data.users[m.sender].exp -= exp) 
 if (ruleta === 'text3') return conn.groupParticipantsUpdate(m.chat, [m.sender], 'demote').catch(m.reply(`https://github.com/Khalid-official [❗𝐈𝐍𝐅𝐎❗] 😹 *_YOU ARE BAD THAT I TOOK OFF THE POWER NOW YOU ARE NO LONGER ADMIN‼️ FUCK YOU‼️_* 😹😹😹`)) 
 if (ruleta === 'text4') return conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote').catch(m.reply(`https://github.com/Khalid-official [❗𝐈𝐍𝐅𝐎❗] 😼 *_THIS IS GOOD😉, NOW YOU ARE AN ADMINSTRATOR, THE ONE WHO REMOVES ADMINS IS A PORN-HUB FAN_* 😂`)) 
-if (ruleta === 'text5') return m.reply(`https://github.com/Khalid-official [❗𝐈𝐍𝐅𝐎❗] *WOOW, SIR, YOU'RE IN LUCK, GO PLAY CASIONO*🎰\n*YOU WIN:* ${diamond} 💎`).catch(global.db.data.users[m.sender].diamond += diamond) 
-if (ruleta === 'text6') return m.reply(`https://github.com/Khalid-official [❗𝐈𝐍𝐅𝐎❗] 👑 *WOW THIS IS GOOD LUCK TO WIN TO BE PREMIUM FOR: 1 HOUR*⏰`).catch(global.db.data.users[m.sender].premium += prem) 
+if (ruleta === 'text5') return m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q [❗𝐈𝐍𝐅𝐎❗] *WOOW, SIR, YOU'RE IN LUCK, GO PLAY CASIONO*🎰\n*YOU WIN:* ${diamond} 💎`).catch(global.db.data.users[m.sender].diamond += diamond) 
+if (ruleta === 'text6') return m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q [❗𝐈𝐍𝐅𝐎❗] 👑 *WOW THIS IS GOOD LUCK TO WIN TO BE PREMIUM FOR: 1 HOUR*⏰`).catch(global.db.data.users[m.sender].premium += prem) 
 }
 handler.help = ['game'];
 handler.tags = ['xp'];
