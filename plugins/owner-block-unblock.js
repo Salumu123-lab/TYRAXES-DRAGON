@@ -30,3 +30,4 @@ const handler = async (m, {text, conn, usedPrefix, command}) => {
 handler.command = /^(block|unblock)$/i;
 handler.rowner = true;
 export default handler;
+
