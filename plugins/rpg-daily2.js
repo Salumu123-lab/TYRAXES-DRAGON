@@ -13,7 +13,7 @@ let expp = Math.floor(Math.random() * 5000)
   global.db.data.users[m.sender].joincount += tok
   global.db.data.users[m.sender].exp += expp
   
-let texto = `https://github.com/Khalid-official 
+let texto = `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q 
 ╔══🎉═🎉═🎉══⬣
 ║🛒 GETS A CHEST
 ║┈┈┈┈┈┈┈┈┈┈┈┈┈
