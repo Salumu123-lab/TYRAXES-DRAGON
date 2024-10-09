@@ -16,7 +16,7 @@ let ar = Object.keys(plugins)
     if (!ar1.includes(args[0])) return m.reply(`*🗃️ NOT FOUND!*\n==================================\n\n${ar1.map(v => ' ' + v).join`\n`}`)
 const file = join(__dirname, '../plugins/' + args[0] + '.js')
 unlinkSync(file)
-conn.reply(m.chat, `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] Success deleted* "plugins/${args[0]}.js"`, m)
+conn.reply(m.chat, `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] Success deleted* "plugins/${args[0]}.js"`, m)
     
 }
 handler.help = ['df']
