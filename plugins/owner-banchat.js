@@ -3,7 +3,7 @@
 let handler = async(m, { conn, isOwner, isAdmin, isROwner }) => {
      if (!(isAdmin || isOwner)) return dfail('admin', m, conn)
      global.db.data.chats[m.chat].isBanned = true
-     m.reply(' https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] The Bot is successfully deactivated in this group, only Admins can use the bot🔒*')
+     m.reply(' https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] The Bot is successfully deactivated in this group, only Admins can use the bot🔒*')
 }
 handler.help = ['banchat']
 handler.tags = ['owner']
