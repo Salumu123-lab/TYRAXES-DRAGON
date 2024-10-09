@@ -42,3 +42,4 @@ handler.tags = ['group'];
 handler.command = /^(add|agregar|añadir|\+)$/i;
 handler.admin = handler.group = handler.botAdmin = true;
 export default handler;
+
