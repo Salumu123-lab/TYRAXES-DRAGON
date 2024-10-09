@@ -10,3 +10,4 @@ handler.help = ['pixel','difuminar']
 handler.tags = ['maker']
 handler.command = /^(pixel|pixelar|difuminar)$/i
 export default handler
+
