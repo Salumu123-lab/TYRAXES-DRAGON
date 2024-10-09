@@ -7,7 +7,7 @@ const handler = async (m, { conn, args, command, usedPrefix }) => {
   const tradutor = _translate.plugins.descargas_instagram;
 
   if (!args[0])
-    throw `https://github.com/Khalid-official ${tradutor.texto1} _${usedPrefix + command} https://www.instagram.com/reel/C8sWV3Nx_GZ/?igsh=MWZoeTY2cW01Nzg1bQ==`;
+    throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ${tradutor.texto1} _${usedPrefix + command} https://www.instagram.com/reel/C8sWV3Nx_GZ/?igsh=MWZoeTY2cW01Nzg1bQ==`;
   await m.reply(global.wait);
   try {
     const img = await instagramDownload(args[0]);
