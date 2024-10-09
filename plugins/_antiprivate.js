@@ -22,3 +22,4 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
   }
   return !1;
 }
+
