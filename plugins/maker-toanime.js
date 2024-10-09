@@ -3,7 +3,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   const q = m.quoted ? m.quoted : m;
   const mime = (q.msg || q).mimetype || q.mediaType || '';
   if (!/image/g.test(mime)) throw '*mention a photo*';
-  m.reply('https://github.com/Khalid-official **[❗𝐈𝐍𝐅𝐎❗] THIS COMMAND WILL TURN YOUR PHOTO INTO ANIME*');
+  m.reply('https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q **[❗𝐈𝐍𝐅𝐎❗] THIS COMMAND WILL TURN YOUR PHOTO INTO ANIME*');
   const data = await q.download?.();
   const image = await uploadImage(data);
   try {
@@ -18,7 +18,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
         const anime3 = `https://api.caliph.biz.id/api/animeai?img=${image}&apikey=caliphkey`;
         await conn.sendFile(m.chat, anime3, 'error.jpg', null, m);
       } catch (e) {
-        throw 'https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] ERROR THE PHOTO HAS THE FACE COVERED*';
+        throw 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] ERROR THE PHOTO HAS THE FACE COVERED*';
       }
     }
   }
