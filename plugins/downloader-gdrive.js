@@ -46,3 +46,6 @@ async function GDriveDl(url) {
   if (data.status !== 200) throw data.statusText;
   return {downloadUrl, fileName, fileSize: formatSize(sizeBytes), mimetype: data.headers.get('content-type')};
 }
+
+
+
