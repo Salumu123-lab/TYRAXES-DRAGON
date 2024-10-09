@@ -14,3 +14,4 @@ const handler = async (m, {conn, usedPrefix, command}) => {
 handler.command = /^(delttt|deltt|delxo|deltictactoe)$/i;
 handler.fail = null;
 export default handler;
+
