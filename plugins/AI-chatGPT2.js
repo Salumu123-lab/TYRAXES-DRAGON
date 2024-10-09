@@ -3,11 +3,11 @@
 /*                                                       */ 
 /*       |- [ ⚠ ] - CREDITOS DEL CODIGO - [ ⚠ ] -|      */
 /*     —◉ DESAROLLADO POR OTOSAKA:                       */
-/*     ◉ Otosaka (https://github.com/6otosaka9)          */
+/*     ◉ Otosaka (https://github.com/kingdragony)          */
 /*     ◉ Número: wa.me/51993966345                       */
 /*                                                       */
 /*     —◉ FT:                                            */
-/*     ◉ BrunoSobrino (https://github.com/BrunoSobrino)  */
+/*     ◉ Arlodragon (https://github.com/kingdragony)  */
 /*                                                       */
 /* [❗]                      [❗]                      [❗] */
 /*-------------------------------------------------------*/
@@ -52,5 +52,5 @@ m.reply(`${hasill22.result}`.trim())
 console.log(efe4)
 throw `*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*`   
 }}}}}}
-handler.command = ['openai2', 'chatgpt2', 'ia2', 'robot2', 'Mystic', 'MysticBot']
+handler.command = ['openai2', 'chatgpt2', 'ia2', 'robot2', 'Tyraxes', 'TyraxBot']
 export default handler
