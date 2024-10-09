@@ -6,7 +6,7 @@ import moment from 'moment-timezone';
 
 global.botnumber = ""
 global.confirmCode = ""
-global.authFile = `BumbleSession`;
+global.authFile = `Tyraxessession`;
 
 // Cambiar a true si el Bot responde a sus comandos con otros comandos.
 // Cambiar a false para usar el Bot desde el mismo numero del Bot.
@@ -14,17 +14,17 @@ global.authFile = `BumbleSession`;
 global.isBaileysFail = false
 
 global.owner = [
-  ['254702713600', '👑 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐓𝐎𝐑👑', true],
-  ['254746764468', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['254793057056', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['254702713600', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['254702713600', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['254702713600', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
-  ['254702713600', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
-  ['254702713600', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
-  ['254702713600', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
-  ['254702713600', '💫 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['254702713600', '💫 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
+  ['254702713600', '🪀𝐓𝐘𝐑𝐀𝐗𝐄𝐒 𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐓𝐎𝐑🪀', true],
+  ['254746764468', '𝐎𝐖𝐍𝐄𝐑', true],
+  ['254793057056', '𝐎𝐖𝐍𝐄𝐑', true],
+  ['254702713600', '𝐎𝐖𝐍𝐄𝐑', true],
+  ['254702713600', '𝐎𝐖𝐍𝐄𝐑', true],
+  ['254702713600', '𝐎𝐖𝐍𝐄𝐑', true],
+  ['254702713600', '𝐎𝐖𝐍𝐄𝐑', true],
+  ['254702713600', '𝐎𝐖𝐍𝐄𝐑', true],
+  ['254702713600', '𝐎𝐖𝐍𝐄𝐑', true],
+  ['254702713600', '𝐎𝐖𝐍𝐄𝐑', true],
+  ['254702713600', '𝐎𝐖𝐍𝐄𝐑', true],
 ];
 
 global.suittag = ['254702713600'];
@@ -34,12 +34,12 @@ global.prems = ['254702713600'];
 global.BASE_API_DELIRIUS = "https://deliriusapi-official.vercel.app";
 
 global.packname = 'Arlodragon tech';
-global.author = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
-global.wm = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
-global.titulowm = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
-global.titulowm2 = `[❗] 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓`
-global.igfg = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
-global.wait = '[❗] 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
+global.author = '𝐀𝐑𝐋𝐎𝐃𝐑𝐀𝐆𝐎𝐍';
+global.wm = '𝐀𝐑𝐋𝐎𝐃𝐑𝐀𝐆𝐎𝐍';
+global.titulowm = '𝐀𝐑𝐋𝐎𝐃𝐑𝐀𝐆𝐎𝐍';
+global.titulowm2 = `[❗] 𝐀𝐑𝐋𝐎𝐃𝐑𝐀𝐆𝐎𝐍`
+global.igfg = '𝐀𝐑𝐋𝐎𝐃𝐑𝐀𝐆𝐎𝐍';
+global.wait = '[🪀] 𝐓𝐘𝐑𝐀𝐗𝐄𝐒 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
 
 global.imagen1 = fs.readFileSync('./src/assets/images/menu/languages/es/menu.png');
 global.imagen2 = fs.readFileSync('./src/assets/images/menu/languages/pt/menu.png');
@@ -60,9 +60,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nThe Bumblebee 🐝 Bot`;
-global.gt = 'The Bumblebee 🐝 Bot';
-global.mysticbot = 'The Bumblebee 🐝 Bot';
+global.wm2 = `${dia} ${fecha}\nThe Tyraxes 🪀 Bot`;
+global.gt = 'The Tyraxes 🪀 Bot';
+global.mysticbot = 'The Tyraxes 🪀 Bot';
 global.channel = 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q';
 global.md = 'https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
