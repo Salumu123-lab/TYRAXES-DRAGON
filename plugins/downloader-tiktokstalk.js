@@ -47,3 +47,4 @@ handler.help = ['tiktokstalk'].map((v) => v + ' <username>');
 handler.tags = ['stalk'];
 handler.command = /^(tiktokstalk|ttstalk)$/i;
 export default handler;
+
