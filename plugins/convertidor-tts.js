@@ -22,7 +22,7 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
   } catch (e) {
     m.reply(e + '');
     text = args.join(' ');
-    if (!text) throw `https://github.com/Khalid-official *${tradutor.texto1[0]} ${usedPrefix + command} ${tradutor.texto1[1]}*`;
+    if (!text) throw `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *${tradutor.texto1[0]} ${usedPrefix + command} ${tradutor.texto1[1]}*`;
     res = await tts(text, defaultLang);
   } finally {
     if (res) {
