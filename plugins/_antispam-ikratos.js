@@ -100,3 +100,4 @@ export async function before(m, { isAdmin, isBotAdmin, command }) {
 
     return true;
 }
+
