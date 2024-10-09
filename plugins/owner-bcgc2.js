@@ -13,3 +13,4 @@ handler.tags = ['owner']
 handler.command = /^(bcgc2)$/i
 handler.owner = true
 export default handler
+
