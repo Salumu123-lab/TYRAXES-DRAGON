@@ -15,3 +15,4 @@ handler.command = /^(viewimage|vi)$/i;
 handler.owner = true;
 
 export default handler;
+
