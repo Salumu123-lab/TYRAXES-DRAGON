@@ -17,3 +17,4 @@ handler.command = /^(setname)$/i;
 handler.group = true;
 handler.admin = true;
 export default handler;
+
