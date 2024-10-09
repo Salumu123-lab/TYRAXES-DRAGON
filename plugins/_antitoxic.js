@@ -24,3 +24,6 @@ export async function before(m, { isAdmin, isBotAdmin, isOwner }) {
     }
     return !1
 }
+
+
+
