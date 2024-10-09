@@ -28,3 +28,4 @@ await conn.sendFile(m.chat, img, 'error.webp', '', m, { asSticker: true })
 }
 handler.command = ['dado', 'dados', 'dadu']
 export default handler*/
+
