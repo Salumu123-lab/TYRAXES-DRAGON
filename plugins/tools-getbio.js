@@ -6,13 +6,13 @@ let handler = async (m, { conn, text, command }) => {
     let bio = await conn.fetchStatus(who)
     m.reply(bio.status)
   } catch {
-    if (text) throw `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] bio is private!*`
+    if (text) throw `ARLODRAGON IS MY OWNER*[❗𝐈𝐍𝐅𝐎❗] bio is private!*`
     else try {
       let who = m.quoted ? m.quoted.sender : m.sender
       let bio = await conn.fetchStatus(who)
       m.reply(bio.status)
     } catch {
-      throw `https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] bio is private!*`
+      throw `ARLODRAGON IS MY OWNER*[❗𝐈𝐍𝐅𝐎❗] bio is private!*`
     }
   }
 }
