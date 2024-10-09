@@ -19,3 +19,4 @@ handler.tags = ['info']
 handler.command = /^(speedtest?|test?speed)$/i
 
 export default handler
+
