@@ -3,10 +3,10 @@ let who
 if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
 else who = m.sender
 let name = conn.getName(who) 
-m.reply(`https://github.com/Khalid-official 
+m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q 
 ┌───⊷ 𝐁𝐀𝐋𝐀𝐍𝐂𝐄 ⊶
-🐝 *Name:* ${name}
-🐝 *Diamonds:* ${global.db.data.users[who].limit}💎
+❤️‍🔥 *Name:* ${name}
+❤️‍🔥 *Diamonds:* ${global.db.data.users[who].limit}💎
 └──────────────
 *NOTE:*
 *YOU CAN BUY DIAMONDS 💎 USING THE COMMANDS*
