@@ -14,12 +14,12 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
     } else { 
       who = m.chat;
     }
-      const textquien = `https://github.com/Khalid-official ${tradutor.texto1}\n◉ ${usedPrefix + command} @${global.suittag}`;
+      const textquien = `https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ${tradutor.texto1}\n◉ ${usedPrefix + command} @${global.suittag}`;
     if (who === m.chat && m.isGroup || !who && m.isGroup) return m.reply(textquien, m.chat, {mentions: conn.parseMention(textquien)});
   try {
     let name;
     if (who === m.chat) {
-      name = "The Bumblebee Bot";
+      name = "The TYRAXES Bot";
     } else {
       name = conn.getName(who);
     }
