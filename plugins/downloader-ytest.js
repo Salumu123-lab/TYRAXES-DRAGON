@@ -6,8 +6,8 @@ import NodeID3 from "node-id3";
 import ytdl from "ytdl-core";
 
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
-  if (!text) return m.reply('https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] enter a YouTube link.*')
-  await m.reply(`https://github.com/Khalid-official *[❗𝐈𝐍𝐅𝐎❗] _⏳𝘄𝗮𝗶𝘁 𝗽𝗮𝘁𝗶𝗲𝗻𝘁𝗹𝘆 𝗮𝗺 𝗽𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝗮𝘂𝗱𝗶𝗼 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁 𝗮𝘀 𝗶𝘁 𝗺𝗮𝘆 𝘁𝗮𝗸𝗲 𝗮 𝘄𝗵𝗶𝗹𝗲...⏳_*`);
+  if (!text) return m.reply('https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] enter a YouTube link.*')
+  await m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q *[❗𝐈𝐍𝐅𝐎❗] _⏳𝘄𝗮𝗶𝘁 𝗽𝗮𝘁𝗶𝗲𝗻𝘁𝗹𝘆 𝗮𝗺 𝗽𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝗮𝘂𝗱𝗶𝗼 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁 𝗮𝘀 𝗶𝘁 𝗺𝗮𝘆 𝘁𝗮𝗸𝗲 𝗮 𝘄𝗵𝗶𝗹𝗲...⏳_*`);
   try {
 const extract = (await ytdl.getBasicInfo(text)).videoDetails.title;      
       
