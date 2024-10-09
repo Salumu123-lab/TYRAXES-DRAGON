@@ -13,7 +13,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
     const bot = global.db.data.settings[this.user.jid] || {};
     
     if (bot.antiZimbabwe && !isOwner && !isROwner) {
-      await m.reply(`https://github.com/Khalid-official _*< ANTI-ZIMBABWE />*_\n\n*[❗𝐈𝐍𝐅𝐎❗]  The anti-zimbabwe feature is enabled, +263 users are not allowed to use the bot privately, hence, you will be blocked.*`, false, {mentions: [m.sender]});
+      await m.reply(`https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q _*< ANTI-ZIMBABWE />*_\n\n*[❗𝐈𝐍𝐅𝐎❗]  The anti-zimbabwe feature is enabled, +263 users are not allowed to use the bot privately, hence, you will be blocked.*`, false, {mentions: [m.sender]});
       await this.updateBlockStatus(m.chat, 'block');
     }
   }
